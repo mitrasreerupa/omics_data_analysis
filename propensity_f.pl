@@ -1,4 +1,4 @@
-#to find the propensity of an amino acid in a database
+#to find the propensity of an amino acid in an alpha-helix
 $directory = 'C:\Users\LENOVO\Desktop\M.Sc. Clg\Assignments\SB\Practical 4';
 opendir (DIR, $directory) or die "File not found,$!";
 while ($file = readdir DIR)
